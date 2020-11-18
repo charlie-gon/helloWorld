@@ -8,7 +8,7 @@ public class MorningCode_201117 {
 
 		int sum7 = 0;
 		int sum8 = 0;
-		
+
 		for (int x = 1; x <= 50; x++) {
 			if (x % 7 == 0) {
 				sum7 += x;
@@ -20,23 +20,21 @@ public class MorningCode_201117 {
 		}
 		System.out.println("sum7의 합: " + sum7);
 		System.out.println("sum8의 합: " + sum8);
-		
-		int i = 1;
+
 		int sum77 = 0;
 		int sum88 = 0;
+		int i = 1;
 
-		while (true) {
+		while (i <= 50) {
 			if (i % 7 == 0) {
 				sum77 += i;
-				System.out.println(sum77);
 			} else if (i % 8 == 0) {
 				sum88 += i;
-				System.out.println(sum88);
-				i++;
-				break;
 			}
+			i++;
 		}
-	
+		System.out.println("sum77의 합: " + sum77);
+		System.out.println("sum88의 합: " + sum88);
 
 	}
 
