@@ -22,7 +22,7 @@ public class MethodExample1_201118 {
 	public static int showDouble(int num) {
 		return num * 2;
 	
-
+	}
 	public static double showDouble(double num) {
 		return num * 2;
 	}
