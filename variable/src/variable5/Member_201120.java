@@ -18,6 +18,7 @@ public class Member_201120 {
 			
 		}
 		
+		//set메소드
 		//회원번호, 이름만 출력해주는 생성자
 		public Member_201120(int mId, String mName) {
 			this.mId = mId;

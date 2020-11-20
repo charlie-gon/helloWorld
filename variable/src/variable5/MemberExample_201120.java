@@ -6,7 +6,8 @@ package variable5;
 
 public class MemberExample_201120 {
 	public static void main(String[] args) {
-		Member_201120 m1 = new Member_201120();
+		
+		Member_201120 m1 = new Member_201120(); //생성자 호출ㄴ
 		System.out.println("이름: " + m1.getmName());
 		
 		Member_201120 m2 = new Member_201120(1, "Hong", "010-1234-5678", "수영");
