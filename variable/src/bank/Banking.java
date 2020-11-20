@@ -32,7 +32,7 @@ public class Banking {
 																					// 입력
 				for (int i = 0; i < customers.length; i++) {
 					if (customers[i] == null) { // 계좌 하나만 넣도록,그리고 데이터 덮어 쓰지 않도록
-						customers[0] = c1;
+						customers[i] = c1;
 						break;
 					}
 
